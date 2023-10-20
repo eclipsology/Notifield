@@ -199,7 +199,9 @@ end
 
 task.delay(3.5, LoadConfiguration)
 
+Rayfield.Enabled = true
 Main.Enabled = false
 Main.Visible = false
+Rayfield.Enabled = true
 
 return Notify
