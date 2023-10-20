@@ -178,7 +178,6 @@ function Notify(NotificationSettings)
 		TweenService:Create(Notification.Description, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
 		wait(0.2)
 		if not getgenv().SecureMode then
-			neon:UnbindFrame(Notification.BlurModule)
 			blurlight:Destroy()
 		end
 		wait(0.9)
