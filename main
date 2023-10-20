@@ -51,7 +51,7 @@ local Notifications = Rayfield.Notifications
 
 
 
-function Notify(NotificationSettings)
+function Rayfield:Notify(NotificationSettings)
 	spawn(function()
 		local ActionCompleted = true
 		local Notification = Notifications.Template:Clone()
@@ -200,4 +200,4 @@ end
 task.delay(3.5, LoadConfiguration)
 Rayfield.Main.Visible = false
 
-return Notify
+return Rayfield
