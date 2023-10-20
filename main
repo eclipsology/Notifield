@@ -198,10 +198,6 @@ function LoadConfiguration()
 end
 
 task.delay(3.5, LoadConfiguration)
-
-Rayfield.Enabled = true
-Main.Enabled = false
-Main.Visible = false
-Rayfield.Enabled = true
+Rayfield.Main.Visible = false
 
 return Notify
