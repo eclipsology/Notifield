@@ -106,7 +106,7 @@ function Notify(NotificationSettings)
 		if NotificationSettings.Image then
 			Notification.Icon.Image = "rbxassetid://"..tostring(NotificationSettings.Image) 
 		else
-			Notification.Icon.Image = "rbxassetid://3944680095"
+			Notification.Icon.Image = "rbxassetid://7536788153"
 		end
 
 		Notification.Icon.ImageTransparency = 1
