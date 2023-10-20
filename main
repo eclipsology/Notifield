@@ -197,7 +197,9 @@ function LoadConfiguration()
 	end
 end
 
-
 task.delay(3.5, LoadConfiguration)
+
+Main.Enabled = false
+Main.Visible = false
 
 return Notify
