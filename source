@@ -199,17 +199,4 @@ end
 task.delay(3.5, LoadConfiguration)
 Rayfield.Main.Visible = false
 
-Notify({
-	Title = "Notification Title",
-	Content = "Notification Description",
-	Duration = 4, -- (Seconds)
-	Icon = 7536788153, -- Do not include the "rbxassetid://" portion
-	Actions = {
-		Accept = {
-			Name = "Ok",
-			Callback = function()
-				print('User Clicked "Ok"')
-			end
-		},
-	}
-})
+return Notify
