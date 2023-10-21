@@ -9,7 +9,9 @@ Using Rayfield, you have to start the main UI screen in order to utilize the sty
 
 # Documentation
 To load the UI Library, paste the following at the top of your code:
-`loadstring(game:HttpGet("https://raw.githubusercontent.com/eclipsology/Notifield/main/source"))()`
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eclipsology/Notifield/main/source"))()
+```
 
 In order to make a notification, simply use the following code:
 ```lua
