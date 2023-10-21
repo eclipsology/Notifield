@@ -31,4 +31,4 @@ Notify({
 
 It will end up looking like this:
 
-https://github.com/eclipsology/Notifield/blob/main/images/image.png
+https://github.com/eclipsology/Notifield/blob/main/images/image.png?raw=true
